@@ -1,0 +1,265 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: Mulish, serif;
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+/* Banner Section */
+#banner{
+    margin-top: 50px;
+}
+.background-image img{
+    width: 100%;
+}
+.background-image{
+    position: relative;
+}
+.overlay{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 34.5em;
+    border-radius: 8px;
+    background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%);
+}
+.overlay-content{
+    margin: 103px auto;
+    text-align: center;
+}
+.overlay-content h1{
+    margin-top: 20px;
+    font-size: 64px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.overlay-content p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.input-bg select{
+    color: rgba(19, 19, 24, 0.50);
+}
+.input-bg{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 50px auto;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+}
+.input-bg input{
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    width: 174px;
+    height: 52px;
+    padding: 10px;
+}
+.input-bg input::placeholder{
+    font-weight: 500;
+}
+.input-bg select{
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    width: 174px;
+    height: 52px;
+    padding: 10px;
+}
+.input-bg button{
+    font-weight: 500;
+    color: #fff;
+    background: #ff5400;
+    border-radius: 8px;
+    border: none;
+    width: 174px;
+    height: 52px;
+}
+.input-bg button:hover{
+    cursor: pointer;
+}
+
+/* Popular Tour Section */
+#popular-tour{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    gap: 20px;
+}
+
+.p-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.p-content p{
+    color: rgba(19, 19, 24, 0.70);
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+.p-content ul{
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 24px;
+}
+.p-content ul li{
+    margin-bottom: 20px;
+}
+.p-content button{
+    color: #fff;
+    background-color: #ff5400;
+    border: none;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.p-image img{
+    width: 650px;
+    height: 550px;
+}
+/* Destination Section */
+#destination{
+
+}
+.d-text{
+    text-align: center;
+    margin: 50px auto;
+}
+.d-text h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.d-text p{
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.card-row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.item1{
+    position: relative;
+}
+.item1 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.item2{
+    position: relative;
+}
+.item2 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.card-row2{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr ;
+    gap: 1.5rem;
+}
+.item3{
+    position: relative;
+}
+.item3 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.item4{
+    position: relative;
+}
+.item4 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.item5{
+    position: relative;
+}
+.item5 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.card-row3{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr ;
+    gap: 1.5rem;
+}
+.item6{
+    position: relative;
+}
+.item6 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.item7{
+    position: relative;
+}
+.item7 p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.d-cards img{
+    width: 100%;
+    height: 100%;
+}

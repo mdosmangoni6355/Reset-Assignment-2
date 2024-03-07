@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+    /* Banner Section Responsive */
+    .background-image img{
+        height: 550px;
+    }
+    .overlay{
+        height: 31em;
+    }
+    .overlay-content{
+        margin-top: 0;
+        margin: 0 auto;
+    }
+    .overlay-content h1{
+        font-size: 34px;
+    }
+    .overlay-content p{
+        font-size: 16px;
+        width: 90%;
+        margin: 20px auto;
+        line-height: 24px;
+    }
+    .input-bg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .input-bg input{
+        width: 95%;
+    }
+    .input-bg select{
+        width: 95%;
+    }
+    .input-bg button{
+        width: 95%;
+    }
+    /* Popular Tour Section */
+    #popular-tour{
+        flex-direction: column;
+    }
+    .p-image img{
+        width: 100%;
+        height: auto;
+    }
+}
